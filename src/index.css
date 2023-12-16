@@ -1,0 +1,164 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+.body{
+  padding:0;
+ 
+}
+.main{
+margin:-10px;
+
+min-height: 100vh;
+height: fit-content;
+background-color:#404040 ;
+color:#F25041;
+padding: 4%;
+
+}
+
+
+.container{
+  display: flex;
+  padding: 2%;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border: #F25041 solid 2px;
+  background-color: #8C8C8C;
+}
+
+.IO{
+  margin: 5px; 
+  width: 45%;
+  min-height: 50vh;
+  border: 2px dashed red;
+  background-color: #F1F0F2;
+}
+
+.Input{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3%;
+}
+.selectfield{
+  text-align: center;
+  border: #F25041 1px dashed;
+}
+
+.imagePreview{
+  width: min-content;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.body {
+  padding: 0;
+}
+
+.main {
+  margin: -10px;
+  min-height: 100vh;
+  height: fit-content;
+  background-color: #404040;
+  color: #f25041;
+  padding: 4%;
+}
+
+.container {
+  display: flex;
+  padding: 2%;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border: #f25041 solid 2px;
+  background-color: #0D0D0D;
+  
+}
+
+.IO {
+  margin: 5px;
+  width: 45%;
+  min-height: 50vh;
+  border: 2px dashed #404040;
+  background-color: #f1f0f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center children vertically */
+  justify-content: space-between; /* Distribute space between children */
+  padding: 20px; /* Add some padding */
+  border-radius: 10px;
+}
+
+.Input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3%;
+  gap: 4%;
+}
+
+.selectfield {
+  text-align: center;
+  border: #0D0D0D 2px dotted;
+  padding: 1%;
+  margin-bottom: 3%;
+  border-radius:5px ;
+}
+
+.imagePreview {
+  width: 100%; /* Take up 100% of the available width */
+  height: fit-content; /* Take up 100% of the available height */
+  border-radius:5% ;
+  
+}
+.IO.output{
+  justify-content: center;
+}
+.parameters{
+  flex-basis: 95%;
+  background-color: #f1f0f2;
+  margin: 5px;
+  border: #404040 2px solid;
+  border-radius: 5px;
+  min-height: 20vh;
+  margin: 2% 2.5%;
+  padding: 1%;
+  
+}
+.paragrid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Adjust the number (3) as needed */
+  gap: 20px;
+  text-align: center;
+}
+
+.Parameter{
+  border: #8c8c8c 2px solid;
+
+}
